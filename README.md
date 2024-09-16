@@ -30,5 +30,37 @@ For this analysis, I will use the 6 phases learnt during the Google Data Analyti
 - SHARE
 - ACT
 
-### ASK
+### Deliverables
+1. Clear summary of the business task
+2. A description of all data source used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of analysis
+5. Supporting visualizations and key findings
+6. Recommendations based on analysis
+
+### 1. ASK
+The main questions required from stakeholders that are going to guide my analysis are:
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat marketing strategy?
+
+### 2. PREPARE
+Data source: dataset collected from Mobius: https://www.kaggle.com/arashnic/fitbit.
+The dataset has 11 CSV files. Each document represents different quantitative data tracked by Fitbit.
+The data is considered long since each row is one time point per subject, so each subject will have data in multiple rows
+Every user has a unique ID and different rows tracked by day and time.
+
+Evalutating the data using the ROCCC ( Reliable, Original, Comprehensive, Current, Cited) I found that:
+Data is not Reliable since shows only data from 30 women and is a very small sample size that could lead to a sampling bias.
+Is not Original since the provenance section show that the data has been preprocessed.
+Is Comprehensive because the metrics fitted the needs of the company.
+Is not Current since the data was collected almost 8 years ago.
+
+### 3. PROCESS
+In order to process, analyse and create visualizations suggesting final recommendations, I used R.
+First step was to install & load the packages required for this analysis.
+
+
+
+
 
